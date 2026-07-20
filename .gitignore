@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtualenv
+.venv/
+
+# OS
+.DS_Store
+
+# SLURM / run logs (large job stdout/stderr — multi-hundred-MB)
+*.out
+*.err
+*.log
+
+# Generated data and outputs (not version-controlled; regenerate via scripts/)
+/data/
+/outputs/

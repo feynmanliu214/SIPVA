@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software itself and the accompanying paper (see preferred-citation)."
+title: "SIPVA: Simultaneous Impact Parameter Variation Analysis"
+abstract: >-
+  Software implementing the Simultaneous Impact Parameter Variation Analysis
+  (SIPVA) method for detecting secular perturbations in Kepler planetary
+  systems. SIPVA incorporates a linear time-dependent model for transit impact
+  parameters directly into an MCMC framework by fitting all transits of a KOI
+  simultaneously, together with a per-transit transit-fitting pipeline,
+  Gaussian-Process detrending, and injection-recovery / detectability tooling.
+type: software
+authors:
+  - family-names: Liu
+    given-names: Zhixing
+  - family-names: Pu
+    given-names: Bonan
+version: "1.0.0"
+date-released: "2026-07-19"
+license: MIT
+repository-code: "https://github.com/feynmanliu214/SIPVA"
+url: "https://github.com/feynmanliu214/SIPVA"
+keywords:
+  - astronomy
+  - exoplanets
+  - transit photometry
+  - Kepler
+  - impact parameter variation
+  - transit duration variation
+  - secular perturbations
+  - MCMC
+preferred-citation:
+  type: article
+  title: "Detecting Secular Perturbations in Kepler Planetary Systems Using Simultaneous Impact Parameter Variation Analysis (SIPVA)"
+  authors:
+    - family-names: Liu
+      given-names: Zhixing
+    - family-names: Pu
+      given-names: Bonan
+  year: 2024
+  doi: "10.48550/arXiv.2411.06452"
+  url: "https://arxiv.org/abs/2411.06452"
+  identifiers:
+    - type: other
+      value: "arXiv:2411.06452"
+      description: "arXiv preprint"
